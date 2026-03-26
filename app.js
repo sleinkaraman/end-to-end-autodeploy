@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: "End-to-End AutoDeploy is Running",
+    message: "Fully Automated Deployment Success",
     status: "Success",
     timestamp: new Date().toISOString(),
     environment: "Kubernetes + ArgoCD"
