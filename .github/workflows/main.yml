@@ -37,3 +37,4 @@ jobs:
           git add k8s/deployment.yaml
           git commit -m "chore: update image tag to ${{ github.sha }} [skip ci]"
           git push
+          
