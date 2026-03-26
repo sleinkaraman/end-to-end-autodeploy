@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: selinkaraman/webapp:latest #
+        image: selinkaraman/webapp:153a4daf319da05e371d19edc8cfd842f49bd131
         ports:
         - containerPort: 3000
